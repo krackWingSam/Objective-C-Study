@@ -7,17 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "SubViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <SubViewControllerDelegate> {
+    SubViewController *subVC;
+}
 
 @end
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    subVC = [[SubViewController alloc] initWithNibName:@"SubViewController" bundle:nil];
+    [subVC setDelegate:self];
     _count = 0;
 }
 
@@ -45,6 +50,16 @@
     [_label setText:text];
     
     [_label setText:[[NSString alloc] initWithFormat:@"count : %d", (int)_count]];
+}
+
+-(IBAction)action_ShowSubView:(UIButton *)button {
+    [self.view addSubview:subVC.view];
+}
+
+
+#pragma mark - SubViewControllerDelegate
+-(void)resetCount {
+    _count = 0;
 }
 
 

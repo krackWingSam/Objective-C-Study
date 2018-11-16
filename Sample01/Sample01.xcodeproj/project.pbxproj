@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		353D6E48219E7A8C00836A6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 353D6E47219E7A8C00836A6C /* README.md */; };
+		353D6E4C219E7E4300836A6C /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 353D6E4A219E7E4300836A6C /* SubViewController.m */; };
+		353D6E4D219E7E4300836A6C /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353D6E4B219E7E4300836A6C /* SubViewController.xib */; };
 		CA6455E5219E4D90009160FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6455E4219E4D90009160FC /* AppDelegate.m */; };
 		CA6455E8219E4D90009160FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6455E7219E4D90009160FC /* ViewController.m */; };
 		CA6455EB219E4D90009160FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6455E9219E4D90009160FC /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		353D6E47219E7A8C00836A6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		353D6E49219E7E4300836A6C /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		353D6E4A219E7E4300836A6C /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		353D6E4B219E7E4300836A6C /* SubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
 		CA6455E0219E4D90009160FC /* Sample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6455E3219E4D90009160FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA6455E4219E4D90009160FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +75,9 @@
 				CA6455EE219E4D9A009160FC /* LaunchScreen.storyboard */,
 				CA6455F1219E4D9A009160FC /* Info.plist */,
 				CA6455F2219E4D9A009160FC /* main.m */,
+				353D6E49219E7E4300836A6C /* SubViewController.h */,
+				353D6E4A219E7E4300836A6C /* SubViewController.m */,
+				353D6E4B219E7E4300836A6C /* SubViewController.xib */,
 			);
 			path = Sample01;
 			sourceTree = "<group>";
@@ -135,6 +143,7 @@
 				CA6455ED219E4D9A009160FC /* Assets.xcassets in Resources */,
 				353D6E48219E7A8C00836A6C /* README.md in Resources */,
 				CA6455EB219E4D90009160FC /* Main.storyboard in Resources */,
+				353D6E4D219E7E4300836A6C /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +157,7 @@
 				CA6455E8219E4D90009160FC /* ViewController.m in Sources */,
 				CA6455F3219E4D9A009160FC /* main.m in Sources */,
 				CA6455E5219E4D90009160FC /* AppDelegate.m in Sources */,
+				353D6E4C219E7E4300836A6C /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
