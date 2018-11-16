@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353D6E48219E7A8C00836A6C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 353D6E47219E7A8C00836A6C /* README.md */; };
 		CA6455E5219E4D90009160FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6455E4219E4D90009160FC /* AppDelegate.m */; };
 		CA6455E8219E4D90009160FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6455E7219E4D90009160FC /* ViewController.m */; };
 		CA6455EB219E4D90009160FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6455E9219E4D90009160FC /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353D6E47219E7A8C00836A6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA6455E0219E4D90009160FC /* Sample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6455E3219E4D90009160FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA6455E4219E4D90009160FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		CA6455D7219E4D90009160FC = {
 			isa = PBXGroup;
 			children = (
+				353D6E47219E7A8C00836A6C /* README.md */,
 				CA6455E2219E4D90009160FC /* Sample01 */,
 				CA6455E1219E4D90009160FC /* Products */,
 			);
@@ -130,6 +133,7 @@
 			files = (
 				CA6455F0219E4D9A009160FC /* LaunchScreen.storyboard in Resources */,
 				CA6455ED219E4D9A009160FC /* Assets.xcassets in Resources */,
+				353D6E48219E7A8C00836A6C /* README.md in Resources */,
 				CA6455EB219E4D90009160FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VE2N7ADQ46;
 				INFOPLIST_FILE = Sample01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VE2N7ADQ46;
 				INFOPLIST_FILE = Sample01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
