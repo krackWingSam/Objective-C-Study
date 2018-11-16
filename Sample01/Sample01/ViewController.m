@@ -23,6 +23,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     subVC = [[SubViewController alloc] initWithNibName:@"SubViewController" bundle:nil];
     [subVC setDelegate:self];
+    
     _count = 0;
 }
 
