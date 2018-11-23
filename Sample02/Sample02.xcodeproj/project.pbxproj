@@ -13,6 +13,9 @@
 		CAFD1AE421A69B9C00EE2753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFD1AE321A69B9C00EE2753 /* Assets.xcassets */; };
 		CAFD1AE721A69B9C00EE2753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFD1AE521A69B9C00EE2753 /* LaunchScreen.storyboard */; };
 		CAFD1AEA21A69B9C00EE2753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFD1AE921A69B9C00EE2753 /* main.m */; };
+		CAFD1AF221A6C45E00EE2753 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFD1AF121A6C45E00EE2753 /* SecondViewController.m */; };
+		CAFD1AF421A6C74100EE2753 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFD1AF321A6C74100EE2753 /* Navigation.storyboard */; };
+		CAFD1AF721A6C83C00EE2753 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFD1AF621A6C83C00EE2753 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		CAFD1AE621A69B9C00EE2753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFD1AE821A69B9C00EE2753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAFD1AE921A69B9C00EE2753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFD1AF021A6C45E00EE2753 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CAFD1AF121A6C45E00EE2753 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CAFD1AF321A6C74100EE2753 /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		CAFD1AF521A6C83C00EE2753 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CAFD1AF621A6C83C00EE2753 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +71,15 @@
 				CAFD1ADD21A69B9A00EE2753 /* ViewController.h */,
 				CAFD1ADE21A69B9A00EE2753 /* ViewController.m */,
 				CAFD1AE021A69B9A00EE2753 /* Main.storyboard */,
+				CAFD1AF321A6C74100EE2753 /* Navigation.storyboard */,
 				CAFD1AE321A69B9C00EE2753 /* Assets.xcassets */,
 				CAFD1AE521A69B9C00EE2753 /* LaunchScreen.storyboard */,
 				CAFD1AE821A69B9C00EE2753 /* Info.plist */,
 				CAFD1AE921A69B9C00EE2753 /* main.m */,
+				CAFD1AF021A6C45E00EE2753 /* SecondViewController.h */,
+				CAFD1AF121A6C45E00EE2753 /* SecondViewController.m */,
+				CAFD1AF521A6C83C00EE2753 /* TableViewController.h */,
+				CAFD1AF621A6C83C00EE2753 /* TableViewController.m */,
 			);
 			path = Sample02;
 			sourceTree = "<group>";
@@ -128,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFD1AF421A6C74100EE2753 /* Navigation.storyboard in Resources */,
 				CAFD1AE721A69B9C00EE2753 /* LaunchScreen.storyboard in Resources */,
 				CAFD1AE421A69B9C00EE2753 /* Assets.xcassets in Resources */,
 				CAFD1AE221A69B9A00EE2753 /* Main.storyboard in Resources */,
@@ -141,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFD1AF221A6C45E00EE2753 /* SecondViewController.m in Sources */,
 				CAFD1ADF21A69B9A00EE2753 /* ViewController.m in Sources */,
 				CAFD1AEA21A69B9C00EE2753 /* main.m in Sources */,
+				CAFD1AF721A6C83C00EE2753 /* TableViewController.m in Sources */,
 				CAFD1ADC21A69B9A00EE2753 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
